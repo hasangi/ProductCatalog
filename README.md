@@ -17,7 +17,9 @@ I have created REST API by using springboot freamwork and also used Apache Maven
 
 *I have implemented Basic Authentication to support users authorization and created an ADMIN role that can 
 authorize to create/update/delete actions. 
+
 username : admin
+
 password : admin123
 
 
