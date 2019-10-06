@@ -34,23 +34,23 @@ and use "Accept" header with the value as "application/xml" OR "application/json
 
 2) Build the springboot project with maven by using the below command
 
- command: "mvn clean package"
+   command: "mvn clean package"
 
 3) Run the springboot application 
 
-with maven command: "mvn spring-boot:run"
-OR
-with java -jar command:  "java -jar target/adcash-1.0.0.jar"
+   with maven command: "mvn spring-boot:run"
+   OR
+   with java -jar command:  "java -jar target/adcash-1.0.0.jar"
 
 4) Access Swagger by using the below url
 
-URL: "http://localhost:8080/swagger-ui.html"
+   URL: "http://localhost:8080/swagger-ui.html"
 
-* Can change Response Content Type to support "json" or "xml"
+   * Can change Response Content Type to support "json" or "xml"
 
 5) Check the code coverage by using jacoco report
 
-URL : file:///..../ProductCatalog/target/site/jacoco/index.html
+    URL : file:///..../ProductCatalog/target/site/jacoco/index.html
 
 #===========================================
 
