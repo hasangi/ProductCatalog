@@ -1,10 +1,10 @@
 # ProductCatalog - Simple REST API for the catalog of products
 
-=========================adcash assignment - catalog of products===========================
+#=========================adcash assignment - catalog of products===========================
 
 I have created REST API by using springboot freamwork and also used Apache Maven as a build automation tool.
 
-==================Technologies================== 
+#==================Technologies================== 
 * java version 1.8
 * Apache Maven 3.5.0
 * springboot version 2.1.8.RELEASE
@@ -13,7 +13,7 @@ I have created REST API by using springboot freamwork and also used Apache Maven
 * Jacoco pluging for code coverage 
 * Swagger-ui as REST API client interface to consume RESTful web services
 
-===============NOTE=============================
+#===============NOTE=============================
 
 *I have implemented Basic Authentication to support users authorization and created an ADMIN role that can 
 authorize to create/update/delete actions. 
@@ -25,33 +25,30 @@ password : admin123
 and use "Accept" header with the value as "application/xml" OR "application/json" to support the json/xml encoding.
 
 
-=================Steps to deploy the application==========
+#=================Steps to deploy the application==========
 
-1) Download/clone the code base from the Github by using below git url
 
-URL: 
+1) Open a command prompt and navigate into project folder.( ex:- C:/Users/hasan/project/ProductCatalog/ )
 
-2) Open a command prompt and navigate into project folder.( ex:- C:/Users/hasan/project/adcash/ )
-
-3) Build the springboot project with maven by using the below command
+2) Build the springboot project with maven by using the below command
 
  command: "mvn clean package"
 
-4) Run the springboot application 
+3) Run the springboot application 
 
 with maven command: "mvn spring-boot:run"
 OR
 with java -jar command:  "java -jar target/adcash-1.0.0.jar"
 
-5) Access Swagger by using the below url
+4) Access Swagger by using the below url
 
 URL: "http://localhost:8080/swagger-ui.html"
 
 * Can change Response Content Type to support "json" or "xml"
 
-6) Check the code coverage by using jacoco report
+5) Check the code coverage by using jacoco report
 
-URL : file:///..../adcash/target/site/jacoco/index.html
+URL : file:///..../ProductCatalog/target/site/jacoco/index.html
 
-===========================================
+#===========================================
 
